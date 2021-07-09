@@ -1,0 +1,20 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Aug 26 15:40:02 2020"
+  rime_version: 1.5.3
+patch:
+  "style/color_scheme": dracula
+  "preset_color_schemes/dracula":
+    name: dracula
+    author: zipei
+    back_color: 0x362A28
+    border_color: 0x362A28
+    text_color: 0xC679FF
+    hilited_text_color: 0xFDE98B
+    hilited_back_color: 0x5A4744
+    hilited_candidate_text_color: 0xF993BD
+    hilited_candidate_back_color: 0x5A4744
+    candidate_text_color: 0xA47262
+    comment_text_color: 0xA47262
