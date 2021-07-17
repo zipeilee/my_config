@@ -48,6 +48,11 @@ jupyter labextension install @krassowski/jupyterlab_go_to_definition
 ```
 ---### 以上应在root权限下 在命令行安装 ###----
 
+## *AttributeError: 'ExtensionManager' object has no attribute '_extensions'*[解决方法](https://stackoverflow.com/questions/67497931/q-cant-start-up-jupyter-lab-on-macos)
+```
+pip install nbclassic -U
+```
+
 ### theme:[neon theme](https://github.com/yeebc/jupyterlab-neon-theme)
 
 ### FontFamily
