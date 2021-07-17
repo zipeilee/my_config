@@ -63,6 +63,8 @@ pip install nbclassic -U
     },
     "markdownCellConfig":{
         "fontFamily": "Cascadia Code"
-    }
+    },
+    "recordTiming": true
+    
 }
 ```
