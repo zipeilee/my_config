@@ -1,1 +1,1 @@
-# Some usefull config for me
+# Some useful config for me
