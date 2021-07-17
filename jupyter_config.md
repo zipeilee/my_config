@@ -46,6 +46,7 @@ pip install lckr-jupyterlab-variableinspector
 ```
 jupyter labextension install @krassowski/jupyterlab_go_to_definition 
 ```
+---### 以上应在root权限下 在命令行安装----
 
 ### theme:[neon theme](https://github.com/yeebc/jupyterlab-neon-theme)
 
