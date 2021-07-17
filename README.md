@@ -1,2 +1,1 @@
-# rime_config
-自用小狼毫输入法配置
+# Some usefull config for me
