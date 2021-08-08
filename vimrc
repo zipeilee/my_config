@@ -33,7 +33,9 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'connorholyday/vim-snazzy'
-Plug 'dracula/vim', { 'as': 'dracula' } 
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'mhinz/vim-startify'
+
 " Plug 'iamcco/mathjax-support-for-mkdp'
 " Plug 'iamcco/markdown-preview.vim'
 
