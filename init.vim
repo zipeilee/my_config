@@ -1,3 +1,5 @@
+~/.config/nvim/init.vim
+
 syntax on
 
 
