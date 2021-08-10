@@ -1,4 +1,5 @@
-" ~/.config/nvim/init.vim
+" /.config/nvim/init.vim
+" /.vim/vimrc
 
 syntax on
 
@@ -65,10 +66,27 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 " nnoremap <C-f> :NERDTreeFind<CR>
 
 " Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
 
 
 "===
+"=== vim-airline
+"===
+let g:airline_theme="luna"
+let g:airline_powerline_fonts=1
+" 打开tabline功能,方便查看Buffer和切换
+" 我还省去了minibufexpl插件，因为我习惯在1个Tab下用多个buffer"
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+" 设置切换Buffer快捷键"
+nnoremap <leader><C-n> :bn<CR>
+nnoremap <leader><C-p> :bp<CR>
+" 关状态显示空白符号计数
+let g:airline#extensions#whitespace#enabled = 0
+let g:airline#extensions#whitespace#symbol = '!'
+
+
+
 "=== coc.nvim
 "===
 let g:coc_global_extensions = ['coc-json', 'coc-vimlsp', 'coc-jedi', 'coc-marketplace', 'coc-go']
@@ -129,7 +147,7 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " nmap <silent> <F9> <Plug>StopMarkdownPreview
 " imap <silent> <F9> <Plug>StopMarkdownPreview
 
-color dracula
+" color dracula
 let g:airline_theme='dracula'
 autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
 
